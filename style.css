@@ -6,75 +6,115 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
 .container {
-    height: 525px;
+    height: 100vh;
+    width: 100%;
     background-color: blueviolet;
-    padding-left: 475px;
-    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login-form {
+    height: 55%;
+    width: 20%;
     background-color: aliceblue;
-    height: 375px;
-    width: 400px;
-    border-radius: 40px;
-    box-shadow: 5px 5px darkviolet;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+    border-radius: 1.5rem;
+    gap: 3.5rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.336);
 }
 
 .login-header {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 22px;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 2.2rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
 }
 
 .input-box {
-    margin-left: 15px;
+    width: 122.5%;
 }
 
-.input-box label {
+.input-box > label {
     color: gray;
+    font-size: 1.5rem;
 }
 
 .input-field {
-    margin-bottom: 30px;
-    border-bottom: 1px solid blueviolet;
-    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
     cursor: text;
+    border-bottom: 0.1rem solid blueviolet;
 }
 
-.input-field input {
+.input-field > i {
+    font-size: 2rem;
+    color: black;
+}
+
+.input-field > input {
     border: none;
-    width: 324px;
     background-color: transparent;
-    outline: 0;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 0rem 0.5rem;
+    outline: none;
 }
 
-.forgot-password {
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
-
-.forgot-password a {
+.forgot-password > a {
     text-decoration: none;
     color: gray;
+    font-size: 1.4rem;
 }
 
-.login-button {
-    text-align: center;
-}
-
-.login-button button {
-    background-color: blueviolet;
-    color: antiquewhite;
-    width: 300px;
-    padding: 10px 0px 10px 0px;
+button {
     border: none;
-    border-radius: 30px;
-    box-shadow: 1px 1px darkviolet;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1.7rem;
+    border-radius: 1rem;
+    font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 950px) {
+    .login-form {
+        height: 55%;
+        width: 60%;
+    }
+    .input-box {
+        width: 107.5%;
+    }
+}
+
+@media (max-width: 450px) {
+    .login-form {
+        height: 55%;
+        width: 75%;
+    }
+    .input-box {
+        width: 110%;
+    }
 }

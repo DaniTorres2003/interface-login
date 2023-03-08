@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interface de Login</title>
+    <title>Dev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -13,31 +13,36 @@
         <form class="login-form">
             <div class="login-header">
                 <h2>Login</h2>
+                <i class="fa-solid fa-paperclip"></i>
             </div>
 
-            <div class="input-box">
-                <label for="email">E-mail</label>
-                    <div class="input-field">
-                        <i class="fa-solid fa-envelope"></i>
-                        <input type="email" id="email" name="email">
-                    </div>
+            <div class="inputs">
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </label>
+                </div>
 
-                <label for="password">Senha</label>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" id="password" name="password">
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </label>
+                    
+                    <div class="forgot-password">
+                        <a href="/">Esqueceu sua senha?</a>
                     </div>
-
-                <div class="forgot-password">
-                    <a href="#">
-                        Esqueceu sua senha?
-                    </a>
                 </div>
             </div>
-    
-            <div class="login-button">
-                <button type="submit">Login</button>
-            </div>
+
+            <button>Login</button>
         </form>
     </main>
 </body>
