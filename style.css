@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 525px;
+    background-color: blueviolet;
+    padding-left: 475px;
+    padding-top: 100px;
+}
+
+.login-form {
+    background-color: aliceblue;
+    height: 375px;
+    width: 400px;
+    border-radius: 40px;
+    box-shadow: 5px 5px darkviolet;
+}
+
+.login-header {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.input-box {
+    margin-left: 15px;
+}
+
+.input-box label {
+    color: gray;
+}
+
+.input-field {
+    margin-bottom: 30px;
+    border-bottom: 1px solid blueviolet;
+    width: 350px;
+    cursor: text;
+}
+
+.input-field input {
+    border: none;
+    width: 324px;
+    background-color: transparent;
+    outline: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.forgot-password {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: gray;
+}
+
+.login-button {
+    text-align: center;
+}
+
+.login-button button {
+    background-color: blueviolet;
+    color: antiquewhite;
+    width: 300px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px darkviolet;
+    cursor: pointer;
+}
