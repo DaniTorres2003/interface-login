@@ -97,11 +97,12 @@ button {
     border-radius: 1rem;
     font-weight: bold;
     cursor: pointer;
+    position: relative;
 }
 
 @media (max-width: 950px) {
     .login-form {
-        height: 55%;
+        height: 53%;
         width: 60%;
     }
     .input-box {
@@ -111,10 +112,64 @@ button {
 
 @media (max-width: 450px) {
     .login-form {
-        height: 55%;
+        height: 48%;
         width: 75%;
     }
     .input-box {
         width: 110%;
+    }
+}
+
+@media (min-height: 700px) {
+    .login-form {
+        height: 50%;
+    }
+}
+
+@media (min-height: 750px) {
+    .login-form {
+        height: 47.5%;
+    }
+}
+
+@media (min-height: 800px) {
+    .login-form {
+        height: 45%;
+    }
+}
+
+@media (min-height: 850px) {
+    .login-form {
+        height: 42.5%;
+    }
+}
+
+@media (min-height: 900px) {
+    .login-form {
+        height: 40%;
+    }
+}
+
+@media (min-height: 950px) {
+    .login-form {
+        height: 37.5%;
+    }
+}
+
+@media (min-height: 1000px) {
+    .login-form {
+        height: 35%;
+    }
+}
+
+@media (min-height: 1050px) {
+    .login-form {
+        height: 32.5%;
+    }
+}
+
+@media (min-height: 1100px) {
+    .login-form {
+        height: 30%;
     }
 }
