@@ -3,7 +3,7 @@ Interface de Login desenvolvida em HTLM e CSS
 
 #
 
-<img src="https://user-images.githubusercontent.com/106355029/224457674-ed74786f-6e95-4d8d-8403-e07d8adec25c.png" alt="Imagem-PC">
+<img src="https://user-images.githubusercontent.com/106355029/224458216-0f970b08-1e00-44a8-8c92-1ae354a3629f.png" alt="Imagem-PC">
  
 #
  
